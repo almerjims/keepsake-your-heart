@@ -76,13 +76,96 @@ export const favorites = [
   { icon: "📸", label: "favorite photo of you", value: "the one in the field" },
 ];
 
-export const playlist = [
-  { title: "Sunsetz", artist: "Cigarettes After Sex" },
-  { title: "Lover", artist: "Taylor Swift" },
-  { title: "The Night We Met", artist: "Lord Huron" },
-  { title: "From The Start", artist: "Laufey" },
-  { title: "Cherry Wine", artist: "Hozier" },
+// 🎙️ Voice messages — drop your own audio file URLs into `audio`.
+// Leave `audio` as undefined to use the simulated waveform-only playback.
+export const voiceMessages = [
+  {
+    id: "birthday",
+    title: "Happy Birthday",
+    caption: "the very first thing I wanted you to hear today.",
+    timestamp: "Recorded at 6:02 AM",
+    note: "couldn't wait until you woke up ♡",
+    duration: 38,
+    color: "blush",
+    tilt: -1.5,
+    audio: undefined as string | undefined,
+  },
+  {
+    id: "goodnight",
+    title: "Goodnight, love",
+    caption: "for the nights I'm not there to tuck you in.",
+    timestamp: "Recorded at 11:48 PM",
+    note: "play me on loop, I won't mind",
+    duration: 42,
+    color: "lavender",
+    tilt: 1.2,
+    audio: undefined,
+  },
+  {
+    id: "proud",
+    title: "I'm so proud of you",
+    caption: "a reminder, in case you forget today.",
+    timestamp: "Recorded on a Tuesday",
+    note: "every single day. truly.",
+    duration: 31,
+    color: "peach",
+    tilt: -0.8,
+    audio: undefined,
+  },
+  {
+    id: "iloveyou",
+    title: "Random I love you",
+    caption: "no reason. just felt it and had to say it.",
+    timestamp: "Recorded at 3:17 PM",
+    note: "stuck in traffic, thinking of you",
+    duration: 18,
+    color: "blush",
+    tilt: 1.6,
+    audio: undefined,
+  },
+  {
+    id: "comfort",
+    title: "When everything feels heavy",
+    caption: "breathe with me for a sec, okay?",
+    timestamp: "Recorded at 2:14 AM",
+    note: "couldn't sleep, so I made this",
+    duration: 55,
+    color: "sage",
+    tilt: -1.1,
+    audio: undefined,
+  },
+  {
+    id: "funny",
+    title: "Something dumb I had to share",
+    caption: "I laughed alone for like five minutes.",
+    timestamp: "Recorded yesterday",
+    note: "you're going to roll your eyes",
+    duration: 22,
+    color: "peach",
+    tilt: 0.9,
+    audio: undefined,
+  },
+  {
+    id: "future",
+    title: "For future us",
+    caption: "open this one a year from today.",
+    timestamp: "Recorded today",
+    note: "save it. promise?",
+    duration: 47,
+    color: "lavender",
+    tilt: -1.4,
+    audio: undefined,
+  },
 ];
+
+export const secretVoiceMessage = {
+  title: "the one I almost didn't send",
+  caption: "I rewrote this a hundred times in my head.",
+  timestamp: "Recorded at 1:03 AM, on your birthday eve",
+  reveal: "No matter what happens, I'll always choose you ❤️",
+  duration: 60,
+  audio: undefined as string | undefined,
+};
 
 export const openWhen = [
   {

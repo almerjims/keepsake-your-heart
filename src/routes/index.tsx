@@ -5,7 +5,7 @@ import { Timeline } from "@/components/scrapbook/Timeline";
 import { Gallery } from "@/components/scrapbook/Gallery";
 import { LoveNotes } from "@/components/scrapbook/LoveNotes";
 import { Favorites } from "@/components/scrapbook/Favorites";
-import { MusicSection } from "@/components/scrapbook/MusicSection";
+import { VoiceMessages } from "@/components/scrapbook/VoiceMessages";
 import { OpenWhen } from "@/components/scrapbook/OpenWhen";
 import { FinalMessage } from "@/components/scrapbook/FinalMessage";
 import { FloatingHearts } from "@/components/scrapbook/FloatingHearts";
@@ -45,7 +45,7 @@ function Index() {
         <Gallery />
         <LoveNotes />
         <Favorites />
-        <MusicSection playing={music} toggle={toggleMusic} />
+        <VoiceMessages />
         <OpenWhen />
         <FinalMessage />
         <footer className="py-10 text-center font-hand text-lg text-muted-foreground">
