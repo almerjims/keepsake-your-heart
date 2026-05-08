@@ -32,12 +32,12 @@ export function GiftRoom({ onAllOpened }: { onAllOpened: () => void }) {
   return (
     <section className="relative px-4 py-16">
       <div className="mb-8 text-center">
-        <p className="font-hand text-xl text-primary">your birthday corner ✿</p>
+        <p className="font-hand text-xl text-primary">Virtuel Gifts form your idolll ✿</p>
         <h2 className="mt-1 inline-block -rotate-1 font-display text-4xl text-ink md:text-5xl">
-          tap on things ♡
+          Tap on items below♡
         </h2>
         <p className="mx-auto mt-2 max-w-md font-hand text-base text-ink/60">
-          (i made each of these for you. open them in any order.)
+          (Hehe ma uwaw mn ko uy i made this para sa imo hopefully ganahan ka huhu..)
         </p>
       </div>
 

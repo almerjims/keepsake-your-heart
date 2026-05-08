@@ -63,7 +63,7 @@ export function GiftBox({ open, onClose }: { open: boolean; onClose: () => void 
                 <Confetti trigger={pop} />
                 <p className="text-center font-hand text-2xl text-primary">surprise ♡</p>
                 <p className="mt-1 text-center font-hand text-base text-ink/60">
-                  little notes, one by one
+                  Small notes for you
                 </p>
                 <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
                   {giftNotes.map((n, i) => (
